@@ -14,6 +14,11 @@ namespace TestPH
         public Form1()
         {
             InitializeComponent();
+            private void button_click(object sender, EventArgs e)
+            {
+                double a = double.Parse(TxtA.Text);
+                double b = double.Parse(txtB.text);
+            }
         }
     }
 }
