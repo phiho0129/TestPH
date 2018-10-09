@@ -16,7 +16,7 @@ namespace TestPH
             InitializeComponent();
             private void button_click(object sender, EventArgs e)
             {
-                if {
+                if (textBox1.Text !="") {
                 double a = double.Parse(TxtA.Text);
                 double b = double.Parse(txtB.text);
             }
